@@ -8,7 +8,7 @@ The scripts are licensed under the terms of the MIT license.
 
 Script descriptions:
 
----
+```
 Application Pool Autostart Settings.SYSpr
 Application Pool Failure Settings.SYSpr
 Application Pool Identity Settings.SYSpr
@@ -17,4 +17,4 @@ Application Pool Process Model.SYSpr
 Application Pool Recycle Settings.SYSpr
 Application Pool Timeout Settings.SYSpr
 Application Pools General Settings.SYSpr
----
+```
