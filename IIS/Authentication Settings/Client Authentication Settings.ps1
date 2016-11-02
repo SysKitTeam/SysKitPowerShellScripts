@@ -1,0 +1,1 @@
+get-WebConfigurationProperty -filter /system.webServer/security/authentication/iisClientCertificateMappingAuthentication  -name * | select  enabled, onetoonecertificatemappingsenabled, manytoonecertificatemappingsenabled, defaultlogondomain, logonmethod, islocked, overridemode, overridemodeeffective
