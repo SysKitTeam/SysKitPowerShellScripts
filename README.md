@@ -9,7 +9,9 @@ The scripts are licensed under the terms of the MIT license.
 Script inventory:
 
 ```
-IIS scripts for generating IIS documentation
+IIS
+
+Scripts for generating IIS documentation
 
 Application Pools:
 Application Pool Autostart Settings.SYSpr
