@@ -12,6 +12,7 @@ Script inventory:
 IIS scripts for generating IIS documentation
 
 Application Pools:
+
 Application Pool Autostart Settings.SYSpr
 Application Pool Failure Settings.SYSpr
 Application Pool Identity Settings.SYSpr
@@ -22,19 +23,23 @@ Application Pool Timeout Settings.SYSpr
 Application Pools General Settings.SYSpr
 
 Asp Settings:
+
 Asp Script Settings.SYSpr
 
-ASP.NET
+ASP.NET:
+
 Asp Net Session Settings.SYSpr
 Asp Net SMTP Settings.SYSpr
 Asp Net Trust Level Settings.SYSpr
 
 Authentication Settings:
+
 Anonymous Authentication Settings.SYSpr
 Basic Authentication Settings.SYSpr
 Client Authentication Settings.SYSpr
 
 Web Sites:
+
 Web Settings Document Footer Settings.SYSpr
 Web Site Source Settings.SYSpr
 Web Sites and Application Pools.SYSpr
