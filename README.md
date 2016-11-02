@@ -19,5 +19,7 @@ Application Pool Recycle Settings.SYSpr
 Application Pool Timeout Settings.SYSpr
 Application Pools General Settings.SYSpr
 
+Asp Settings:
+Asp Script Settings.SYSpr
 
 ```
