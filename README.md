@@ -11,7 +11,7 @@ Script inventory:
 ```
 IIS
 
-Scripts for generating IIS documentation
+Scripts for generating IIS documentation.
 
 Application Pools:
 Application Pool Autostart Settings.SYSpr
