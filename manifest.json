@@ -12,7 +12,7 @@
                     "description": "Application Pool Autostart Settings report"
                 },
                 {
-					"name": "Application Pool Failure Settings",
+		    "name": "Application Pool Failure Settings",
                     "file": "Application Pool Failure Settings.SYSpr",
                     "description": "Application Pool Failure Settings report"
                 },
