@@ -14,44 +14,44 @@ Scripts for generating IIS documentation.
 
 ###### Application Pools
 ```
-ApplicationPoolAutostartSettings.ps1
-ApplicationPoolFailureSettings.ps1
-ApplicationPoolIdentitySettings.ps1
-ApplicationPoolOrphanAction.ps1
-ApplicationPoolProcessModel.ps1
-ApplicationPoolRecycleSettings.ps1
-ApplicationPoolTimeoutSettings.ps1
-ApplicationPoolsGeneralSettings.ps1
+Computer_ApplicationPoolAutostartSettings.ps1
+Computer_ApplicationPoolFailureSettings.ps1
+Computer_ApplicationPoolIdentitySettings.ps1
+Computer_ApplicationPoolOrphanAction.ps1
+Computer_ApplicationPoolProcessModel.ps1
+Computer_ApplicationPoolRecycleSettings.ps1
+Computer_ApplicationPoolTimeoutSettings.ps1
+Computer_ApplicationPoolsGeneralSettings.ps1
 ```
 
 ###### Asp Settings
 ```
-Asp Script Settings.ps1
+Computer_AspScriptSettings.ps1
 ```
 
 ###### ASP.NET
 ```
-AspNetSessionSettings.ps1
-AspNetSMTPSettings.ps1
-AspNetTrustLevelSettings.ps1
+Computer_AspNetSessionSettings.ps1
+Computer_AspNetSMTPSettings.ps1
+Computer_AspNetTrustLevelSettings.ps1
 ```
 
 ###### Authentication Settings
 ```
-AnonymousAuthenticationSettings.ps1
-BasicAuthenticationSettings.ps1
-ClientAuthenticationSettings.ps1
+Computer_AnonymousAuthenticationSettings.ps1
+Computer_BasicAuthenticationSettings.ps1
+Computer_ClientAuthenticationSettings.ps1
 ```
 
 ###### Web Sites
 ```
-WebSettingsDocumentFooterSettings.ps1
-WebSiteSourceSettings.ps1
-WebSitesandApplicationPools.ps1
-WebSitesBindingSettings.ps1
-WebSitesGeneralSettings.ps1
-WebSitesISAPIFilterSettings.ps1
-WebSitesNetworkSettings.ps1
+Computer_WebSettingsDocumentFooterSettings.ps1
+Computer_WebSiteSourceSettings.ps1
+Computer_WebSitesandApplicationPools.ps1
+Computer_WebSitesBindingSettings.ps1
+Computer_WebSitesGeneralSettings.ps1
+Computer_WebSitesISAPIFilterSettings.ps1
+Computer_WebSitesNetworkSettings.ps1
 ```
 
 ### AD
