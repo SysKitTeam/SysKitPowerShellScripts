@@ -96,6 +96,8 @@ DC_GetADComputers.ps1
 ```
 
 ```
+VMs
+
 Scripts for displaying Hyper-V Virtual Machine information.
 
 Computer_FindVMHost.ps1
