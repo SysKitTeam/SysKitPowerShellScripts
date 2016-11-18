@@ -73,7 +73,7 @@ DC_GetTrustedForDelegationUsers.ps1
 DC_GetUserPasswordExpiry.ps1
 ```
 
-### Features And Services
+## Features And Services
 
 Scripts for listing installed features and services on servers.
 
@@ -83,7 +83,7 @@ Computer_GetAllStoppedServices.ps1
 Computer_GetInstalledFeatures.ps1
 ```
 
-### Group Policy
+## Group Policy
 
 Scripts for displaying Group Policy information.
 
@@ -92,7 +92,7 @@ DC_GetDomainPasswordPolicy.ps1
 DC_GetGPOReport.ps1
 ```
 
-### Network
+## Network
 
 Scripts for displaying network information.
 
@@ -103,7 +103,7 @@ Computer_GetTCPConnections.ps1
 DC_GetADComputers.ps1
 ```
 
-### VMs
+## VMs
 
 Scripts for displaying Hyper-V Virtual Machine information.
 
