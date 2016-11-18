@@ -14,14 +14,14 @@ Scripts for generating IIS documentation.
 
 ###### Application Pools
 ```
-Application Pool Autostart Settings.ps1
-Application Pool Failure Settings.ps1
-Application Pool Identity Settings.ps1
-Application Pool Orphan Action.ps1
-Application Pool Process Model.ps1
-Application Pool Recycle Settings.ps1
-Application Pool Timeout Settings.ps1
-Application Pools General Settings.ps1
+ApplicationPoolAutostartSettings.ps1
+ApplicationPoolFailureSettings.ps1
+ApplicationPoolIdentitySettings.ps1
+ApplicationPoolOrphanAction.ps1
+ApplicationPoolProcessModel.ps1
+ApplicationPoolRecycleSettings.ps1
+ApplicationPoolTimeoutSettings.ps1
+ApplicationPoolsGeneralSettings.ps1
 ```
 
 ###### Asp Settings
@@ -31,27 +31,27 @@ Asp Script Settings.ps1
 
 ###### ASP.NET
 ```
-Asp Net Session Settings.ps1
-Asp Net SMTP Settings.ps1
-Asp Net Trust Level Settings.ps1
+AspNetSessionSettings.ps1
+AspNetSMTPSettings.ps1
+AspNetTrustLevelSettings.ps1
 ```
 
 ###### Authentication Settings
 ```
-Anonymous Authentication Settings.ps1
-Basic Authentication Settings.ps1
-Client Authentication Settings.ps1
+AnonymousAuthenticationSettings.ps1
+BasicAuthenticationSettings.ps1
+ClientAuthenticationSettings.ps1
 ```
 
 ###### Web Sites
 ```
-Web Settings Document Footer Settings.ps1
-Web Site Source Settings.ps1
-Web Sites and Application Pools.ps1
-Web Sites Binding Settings.ps1
-Web Sites General Settings.ps1
-Web Sites ISAPI Filter Settings.ps1
-Web Sites Network Settings.ps1
+WebSettingsDocumentFooterSettings.ps1
+WebSiteSourceSettings.ps1
+WebSitesandApplicationPools.ps1
+WebSitesBindingSettings.ps1
+WebSitesGeneralSettings.ps1
+WebSitesISAPIFilterSettings.ps1
+WebSitesNetworkSettings.ps1
 ```
 
 ### AD
