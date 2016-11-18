@@ -8,7 +8,7 @@ The scripts are licensed under the terms of the MIT license.
 
 Script inventory:
 
-### IIS
+## IIS
 
 Scripts for generating IIS documentation.
 
