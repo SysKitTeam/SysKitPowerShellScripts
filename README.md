@@ -9,6 +9,7 @@ The scripts are licensed under the terms of the MIT license.
 Script inventory:
 
 ## IIS
+
 Scripts for generating IIS documentation.
 
 #### Application Pools
@@ -42,8 +43,8 @@ Basic Authentication Settings.ps1
 Client Authentication Settings.ps1
 ```
 
+#### Web Sites
 ```
-Web Sites:
 Web Settings Document Footer Settings.ps1
 Web Site Source Settings.ps1
 Web Sites and Application Pools.ps1
@@ -53,7 +54,7 @@ Web Sites ISAPI Filter Settings.ps1
 Web Sites Network Settings.ps1
 ```
 
-### AD
+## AD
 
 Scripts for querying AD objects on a Domain Controller.
 
