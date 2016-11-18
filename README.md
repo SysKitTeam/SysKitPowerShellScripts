@@ -12,8 +12,8 @@ Script inventory:
 
 Scripts for generating IIS documentation.
 
+#### Application Pools
 ```
-Application Pools:
 Application Pool Autostart Settings.ps1
 Application Pool Failure Settings.ps1
 Application Pool Identity Settings.ps1
