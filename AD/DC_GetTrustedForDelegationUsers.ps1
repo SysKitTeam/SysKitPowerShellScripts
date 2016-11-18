@@ -1,0 +1,1 @@
+Get-ADUser -Filter {TrustedForDelegation -eq "True"} | select Name, Enabled, SID | ft -autosize

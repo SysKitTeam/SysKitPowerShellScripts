@@ -1,0 +1,1 @@
+Get-ADComputer -Filter "OperatingSystem -like '*Server*'" -properties OperatingSystem,OperatingSystemServicePack | Select Name,Op* | ft -AutoSize

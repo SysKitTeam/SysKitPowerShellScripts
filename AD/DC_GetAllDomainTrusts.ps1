@@ -1,0 +1,1 @@
+Get-ADTrust -Filter * | select Source, Target, Direction, ForestTransitive  | ft -autosize

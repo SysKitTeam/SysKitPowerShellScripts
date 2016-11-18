@@ -1,0 +1,1 @@
+Get-ADGroupMember 'Domain Admins' | select Name, ObjectClass, SID | ft -AutoSize

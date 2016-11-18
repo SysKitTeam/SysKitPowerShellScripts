@@ -1,0 +1,1 @@
+Get-ADComputer -Filter * -Properties IPv4Address | select DNSHostName, Enabled, IPv4Address, SID | ft -AutoSize

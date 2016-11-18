@@ -1,0 +1,1 @@
+Get-ADUser -filter {enabled -eq $false} | ft Name,DistinguishedName,SID,Enabled -AutoSize

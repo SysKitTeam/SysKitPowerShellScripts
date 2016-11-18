@@ -1,0 +1,1 @@
+Get-AdObject -Filter {ObjectClass -eq "OrganizationalUnit"} | ft -AutoSize

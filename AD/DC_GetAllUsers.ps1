@@ -1,0 +1,1 @@
+Get-ADUser -Filter * | select Name, DistinguishedName, Enabled, SID | ft -AutoSize

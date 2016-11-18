@@ -1,0 +1,1 @@
+Get-ADDomainController -Filter * | Select-Object Name, IPv4Address, IsReadOnly, OperatingSystem, OperationMasterRoles | ft -groupby Domain -AutoSize
