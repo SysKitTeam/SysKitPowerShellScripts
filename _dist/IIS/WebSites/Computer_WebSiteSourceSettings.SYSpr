@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtendedPowerShellReportDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptVersion>1</ScriptVersion>
+  <ReportDefinition>
+    <PowerShellScript>get-website |select name, physicalpath, username</PowerShellScript>
+    <IncludedColumns />
+    <RunScriptOn>SpecificServers</RunScriptOn>
+    <IncludedColumnTypes />
+    <IdentityColumns />
+    <TerminalServerIDs>
+      <int>1</int>
+      <int>2</int>
+      <int>44</int>
+      <int>7</int>
+      <int>8</int>
+      <int>20</int>
+      <int>24</int>
+    </TerminalServerIDs>
+    <ServerGroupIDs />
+  </ReportDefinition>
+  <ScriptType>AdministrationReport</ScriptType>
+  <ModuleData />
+</ExtendedPowerShellReportDefinition>

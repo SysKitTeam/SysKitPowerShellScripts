@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtendedPowerShellReportDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptVersion>1</ScriptVersion>
+  <ReportDefinition>
+    <PowerShellScript>$allData = @()
+$test = Get-WebConfigurationProperty /system.applicationhost/sites -name * | select -expand collection | select name -expand bindings
+foreach($t in $test)
+{
+    $allData  += $t |select Name -expand Collection |select Name, Protocol, BindingInformation, SSLFlags
+}
+$allData</PowerShellScript>
+    <IncludedColumns>
+      <string>name</string>
+      <string>protocol</string>
+      <string>bindingInformation</string>
+      <string>sslFlags</string>
+    </IncludedColumns>
+    <RunScriptOn>SpecificServers</RunScriptOn>
+    <IncludedColumnTypes>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+    </IncludedColumnTypes>
+    <IdentityColumns />
+    <TerminalServerIDs>
+      <int>1</int>
+      <int>2</int>
+      <int>44</int>
+      <int>36</int>
+      <int>23</int>
+      <int>47</int>
+    </TerminalServerIDs>
+    <ServerGroupIDs />
+  </ReportDefinition>
+  <ScriptType>AdministrationReport</ScriptType>
+  <ModuleData />
+</ExtendedPowerShellReportDefinition>

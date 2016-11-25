@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtendedPowerShellReportDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptVersion>1</ScriptVersion>
+  <ReportDefinition>
+    <PowerShellScript>$test = Get-WebConfigurationProperty /system.applicationhost/sites -name * | select -expand collection | select name -expand limits
+$test | select name, maxBandwidth, maxconnections, connectionTimeout, maxUrlSegments</PowerShellScript>
+    <IncludedColumns />
+    <RunScriptOn>SpecificServers</RunScriptOn>
+    <IncludedColumnTypes />
+    <IdentityColumns />
+    <TerminalServerIDs>
+      <int>57</int>
+      <int>27</int>
+      <int>1</int>
+      <int>2</int>
+      <int>44</int>
+      <int>7</int>
+      <int>8</int>
+    </TerminalServerIDs>
+    <ServerGroupIDs />
+  </ReportDefinition>
+  <ScriptType>AdministrationReport</ScriptType>
+  <ModuleData />
+</ExtendedPowerShellReportDefinition>

@@ -1,144 +1,80 @@
 {
-    "name": "IIS",
-    "content":
+    "FolderName": "_dist",
+    "Content":
     [
         {
-            "name": "Application Pools",
-            "content":
+            "FolderName": "IIS",
+            "Content":
             [
                 {
-                    "name": "Application Pool Autostart Settings",
-                    "file": "Application Pool Autostart Settings.SYSpr",
-                    "description": "Application Pool Autostart Settings report"
+                    "FolderName": "ASP.NET",
+                    "Content":
+                    [
+                    ]
                 },
                 {
-		    "name": "Application Pool Failure Settings",
-                    "file": "Application Pool Failure Settings.SYSpr",
-                    "description": "Application Pool Failure Settings report"
+                    "FolderName": "ASPSettings",
+                    "Content":
+                    [
+                    ]
                 },
                 {
-                    "name": "Application Pool Identity Settings",
-                    "file": "Application Pool Identity Settings.SYSpr",
-                    "description": "Application Pool Identity Settings report"
+                    "FolderName": "ApplicationPools",
+                    "Content":
+                    [
+                        {
+                            "FileName": "Computer_ApplicationPoolAutostartSettings.SYSpr",
+                            "Name": "Application Pool Autostart Settings",
+                            "Description": "Application Pool Autostart Settings report."
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolFailureSettings.SYSpr",
+                            "Name": "Application Pool Failure Settings",
+                            "Description": "Application Pool Failure Settings report."
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolIdentitySettings.SYSpr",
+                            "Name": "Application Pool Identity Settings",
+                            "Description": "Application Pool Identity Settings report."
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolOrphanAction.SYSpr",
+                            "Name": "Application Pool Orphan Action",
+                            "Description": "Application Pool Orphan Action report."
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolProcessModel.SYSpr",
+                            "Name": "Application Pool Process Model",
+                            "Description": "Application Pool Process Model report."
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolRecycleSettings.SYSpr",
+                            "Name": "Application Pool Recycle Settings",
+                            "Description": "Application Pool Recycle Settings report."
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
+                            "Name": "Application Pools General Settings",
+                            "Description": "Application Pools General Settings report."
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
+                            "Name": "Application Pool Timeout Settings",
+                            "Description": "Application Pool Timeout Settings report."
+                        }
+                    ]
                 },
                 {
-                    "name": "Application Pool Orphan Action",
-                    "file": "Application Pool Orphan Action.SYSpr",
-                    "description": "Application Pool Orphan Action report"
+                    "FolderName": "AuthenticationSettings",
+                    "Content":
+                    [
+                    ]
                 },
                 {
-                    "name": "Application Pool Process Model",
-                    "file": "Application Pool Process Model.SYSpr",
-                    "description": "Application Pool Process Model report"
-                },
-                {
-                    "name": "Application Pool Recycle Settings",
-                    "file": "Application Pool Recycle Settings.SYSpr",
-                    "description": "Application Pool Recycle Settings report"
-                },
-                {
-                    "name": "Application Pool Timeout Settings",
-                    "file": "Application Pool Timeout Settings.SYSpr",
-                    "description": "Application Pool Timeout Settings report"
-                },
-                {
-                    "name": "Application Pools General Settings",
-                    "file": "Application Pools General Settings.SYSpr",
-                    "description": "Application Pools General Settings report"
-                }
-            ]
-        },
-        {
-            "name": "ASP Settings",
-            "content":
-            [
-                {
-                    "name": "Asp Script Settings",
-                    "file": "Asp Script Settings.SYSpr",
-                    "description": "Asp Script Settings report"
-                }
-            ]
-        },
-        {
-            "name": "ASP.NET",
-            "content":
-            [
-                {
-                    "name": "Asp Net Session Settings",
-                    "file": "Asp Net Session Settings.SYSpr",
-                    "description": "Asp Net Session Settings report"
-                },
-                {
-                    "name": "Asp Net SMTP Settings",
-                    "file": "Asp Net SMTP Settings.SYSpr",
-                    "description": "Asp Net SMTP Settings report"
-                },
-                {
-                    "name": "Asp Net Trust Level Settings",
-                    "file": "Asp Net Trust Level Settings.SYSpr",
-                    "description": "Asp Net Trust Level Settings report"
-                }
-            ]
-        },
-        {
-            "name": "Authentication Settings",
-            "content":
-            [
-                {
-                    "name": "Anonymous Authentication Settings",
-                    "file": "Anonymous Authentication Settings.SYSpr",
-                    "description": "Anonymous Authentication Settings report"
-                },
-                {
-                    "name": "Basic Authentication Settings",
-                    "file": "Basic Authentication Settings.SYSpr",
-                    "description": "Basic Authentication Settings report"
-                },
-                {
-                    "name": "Client Authentication Settings",
-                    "file": "Client Authentication Settings.SYSpr",
-                    "description": "Client Authentication Settings report"
-                }
-            ]
-        },
-        {
-            "name": "Web Sites",
-            "content":
-            [
-                {
-                    "name": "Web Settings Document Footer Settings",
-                    "file": "Web Settings Document Footer Settings.SYSpr",
-                    "description": "Web Settings Document Footer Settings report"
-                },
-                {
-                    "name": "Web Site Source Settings",
-                    "file": "Web Site Source Settings.SYSpr",
-                    "description": "Web Site Source Settings report"
-                },
-                {
-                    "name": "Web Sites and Application Pools",
-                    "file": "Web Sites and Application Pools.SYSpr",
-                    "description": "Web Sites and Application Pools report"
-                },
-                {
-                    "name": "Web Sites Binding Settings",
-                    "file": "Web Sites Binding Settings.SYSpr",
-                    "description": "Web Sites Binding Settings report"
-                },
-                {
-                    "name": "Web Sites General Settings",
-                    "file": "Web Sites General Settings.SYSpr",
-                    "description": "Web Sites General Settings report"
-                },
-                {
-                    "name": "Web Sites ISAPI Filter Settings",
-                    "file": "Web Sites ISAPI Filter Settings.SYSpr",
-                    "description": "Web Sites ISAPI Filter Settings report"
-                },
-                {
-                    "name": "Web Sites Network Settings",
-                    "file": "Web Sites Network Settings.SYSpr",
-                    "description": "Web Sites Network Settings report"
+                    "FolderName": "WebSites",
+                    "Content":
+                    [
+                    ]
                 }
             ]
         }

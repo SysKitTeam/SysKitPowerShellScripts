@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtendedPowerShellReportDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptVersion>1</ScriptVersion>
+  <ReportDefinition>
+    <PowerShellScript>Get-WebConfigurationProperty /system.webserver/asp/session  -name * | select  allowsessionstate, keepsessionidsecure, max, timeout
+</PowerShellScript>
+    <IncludedColumns>
+      <string>allowSessionState</string>
+      <string>keepSessionIdSecure</string>
+      <string>max</string>
+      <string>timeout</string>
+    </IncludedColumns>
+    <RunScriptOn>SpecificServers</RunScriptOn>
+    <IncludedColumnTypes>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+    </IncludedColumnTypes>
+    <IdentityColumns />
+    <TerminalServerIDs>
+      <int>1</int>
+      <int>2</int>
+      <int>44</int>
+      <int>7</int>
+      <int>8</int>
+      <int>47</int>
+      <int>23</int>
+      <int>20</int>
+      <int>36</int>
+    </TerminalServerIDs>
+    <ServerGroupIDs />
+  </ReportDefinition>
+  <ScriptType>AdministrationReport</ScriptType>
+  <ModuleData />
+</ExtendedPowerShellReportDefinition>
