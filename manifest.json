@@ -1,78 +1,78 @@
 {
-    "Name": "_dist",
-    "Content":
+    "DirectoryName": "_dist",
+    "Directories":
     [
         {
-            "Name": "IIS",
-            "Content":
+            "DirectoryName": "IIS",
+            "Directories":
             [
                 {
-                    "Name": "ASP.NET",
-                    "Content":
+                    "DirectoryName": "ASP.NET",
+                    "Files":
                     [
                     ]
                 },
                 {
-                    "Name": "ASPSettings",
-                    "Content":
+                    "DirectoryName": "ASPSettings",
+                    "Files":
                     [
                     ]
                 },
                 {
-                    "Name": "ApplicationPools",
-                    "Content":
+                    "DirectoryName": "ApplicationPools",
+                    "Files":
                     [
                         {
-                            "Name": "Computer_ApplicationPoolAutostartSettings.SYSpr",
+                            "FileName": "Computer_ApplicationPoolAutostartSettings.SYSpr",
                             "DisplayName": "Application Pool Autostart Settings",
                             "Description": "Application Pool Autostart Settings report."
                         },
                         {
-                            "Name": "Computer_ApplicationPoolFailureSettings.SYSpr",
+                            "FileName": "Computer_ApplicationPoolFailureSettings.SYSpr",
                             "DisplayName": "Application Pool Failure Settings",
                             "Description": "Application Pool Failure Settings report."
                         },
                         {
-                            "Name": "Computer_ApplicationPoolIdentitySettings.SYSpr",
+                            "FileName": "Computer_ApplicationPoolIdentitySettings.SYSpr",
                             "DisplayName": "Application Pool Identity Settings",
                             "Description": "Application Pool Identity Settings report."
                         },
                         {
-                            "Name": "Computer_ApplicationPoolOrphanAction.SYSpr",
+                            "FileName": "Computer_ApplicationPoolOrphanAction.SYSpr",
                             "DisplayName": "Application Pool Orphan Action",
                             "Description": "Application Pool Orphan Action report."
                         },
                         {
-                            "Name": "Computer_ApplicationPoolProcessModel.SYSpr",
+                            "FileName": "Computer_ApplicationPoolProcessModel.SYSpr",
                             "DisplayName": "Application Pool Process Model",
                             "Description": "Application Pool Process Model report."
                         },
                         {
-                            "Name": "Computer_ApplicationPoolRecycleSettings.SYSpr",
+                            "FileName": "Computer_ApplicationPoolRecycleSettings.SYSpr",
                             "DisplayName": "Application Pool Recycle Settings",
                             "Description": "Application Pool Recycle Settings report."
                         },
                         {
-                            "Name": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
+                            "FileName": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
                             "DisplayName": "Application Pools General Settings",
                             "Description": "Application Pools General Settings report."
                         },
                         {
-                            "Name": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
+                            "FileName": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
                             "DisplayName": "Application Pool Timeout Settings",
                             "Description": "Application Pool Timeout Settings report."
                         }
                     ]
                 },
                 {
-                    "Name": "AuthenticationSettings",
-                    "Content":
+                    "DirectoryName": "AuthenticationSettings",
+                    "Files":
                     [
                     ]
                 },
                 {
-                    "Name": "WebSites",
-                    "Content":
+                    "DirectoryName": "WebSites",
+                    "Files":
                     [
                     ]
                 }
