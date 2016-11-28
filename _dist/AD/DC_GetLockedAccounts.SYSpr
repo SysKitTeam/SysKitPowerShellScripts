@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtendedPowerShellReportDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptVersion>1</ScriptVersion>
+  <ReportDefinition>
+    <PowerShellScript>Search-ADAccount -LockedOut | Select Name,DistinguishedName,SID,Enabled,LockedOut
+</PowerShellScript>
+    <IncludedColumns />
+    <RunScriptOn>SpecificServers</RunScriptOn>
+    <IncludedColumnTypes />
+    <IdentityColumns />
+    <TerminalServerIDs>
+      <int>74</int>
+    </TerminalServerIDs>
+    <ServerGroupIDs />
+  </ReportDefinition>
+  <ScriptType>AdministrationReport</ScriptType>
+  <ModuleData />
+</ExtendedPowerShellReportDefinition>

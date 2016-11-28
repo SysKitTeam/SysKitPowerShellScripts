@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtendedPowerShellReportDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptVersion>1</ScriptVersion>
+  <ReportDefinition>
+    <PowerShellScript>Get-WindowsFeature | Where-Object {$_.Installed -match "True"}</PowerShellScript>
+    <IncludedColumns>
+      <string>Name</string>
+      <string>DisplayName</string>
+      <string>Description</string>
+      <string>Installed</string>
+      <string>InstallState</string>
+      <string>FeatureType</string>
+      <string>Path</string>
+      <string>Depth</string>
+      <string>DependsOn</string>
+      <string>Parent</string>
+      <string>ServerComponentDescriptor</string>
+      <string>SubFeatures</string>
+      <string>SystemService</string>
+      <string>Notification</string>
+      <string>BestPracticesModelId</string>
+      <string>EventQuery</string>
+      <string>PostConfigurationNeeded</string>
+      <string>AdditionalInfo</string>
+    </IncludedColumns>
+    <RunScriptOn>SpecificServers</RunScriptOn>
+    <IncludedColumnTypes>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+    </IncludedColumnTypes>
+    <IdentityColumns />
+    <TerminalServerIDs>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>46</int>
+      <int>18</int>
+    </TerminalServerIDs>
+    <ServerGroupIDs />
+  </ReportDefinition>
+  <ScriptType>AdministrationReport</ScriptType>
+  <ModuleData />
+</ExtendedPowerShellReportDefinition>

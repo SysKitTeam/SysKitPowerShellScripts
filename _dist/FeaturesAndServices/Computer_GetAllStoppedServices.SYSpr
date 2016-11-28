@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtendedPowerShellReportDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptVersion>1</ScriptVersion>
+  <ReportDefinition>
+    <PowerShellScript>get-service | Where-Object {$_.status -eq "stopped"}</PowerShellScript>
+    <IncludedColumns>
+      <string>Name</string>
+      <string>RequiredServices</string>
+      <string>CanPauseAndContinue</string>
+      <string>CanShutdown</string>
+      <string>CanStop</string>
+      <string>DisplayName</string>
+      <string>DependentServices</string>
+      <string>MachineName</string>
+      <string>ServiceName</string>
+      <string>ServicesDependedOn</string>
+      <string>ServiceHandle</string>
+      <string>Status</string>
+      <string>ServiceType</string>
+      <string>Site</string>
+      <string>Container</string>
+    </IncludedColumns>
+    <RunScriptOn>SpecificServers</RunScriptOn>
+    <IncludedColumnTypes>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+    </IncludedColumnTypes>
+    <IdentityColumns />
+    <TerminalServerIDs>
+      <int>8</int>
+      <int>7</int>
+      <int>44</int>
+    </TerminalServerIDs>
+    <ServerGroupIDs />
+  </ReportDefinition>
+  <ScriptType>AdministrationReport</ScriptType>
+  <ModuleData />
+</ExtendedPowerShellReportDefinition>
