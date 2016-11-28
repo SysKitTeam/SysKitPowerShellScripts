@@ -3,6 +3,120 @@
     "Directories":
     [
         {
+            "DirectoryName": "AD",
+            "Files":
+            [
+                {
+                    "FileName": "DC_GetAllClientComputers.SYSpr",
+                    "DisplayName": "GetAllClientComputers",
+                    "Description": "GetAllClientComputers",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetAllDomainAdmins.SYSpr",
+                    "DisplayName": "GetAllDomainAdmins",
+                    "Description": "GetAllDomainAdmins",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetAllOUs.SYSpr",
+                    "DisplayName": "GetAllOUs",
+                    "Description": "GetAllOUs",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetAllServers.SYSpr",
+                    "DisplayName": "GetAllServers",
+                    "Description": "GetAllServers",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetAllUsers.SYSpr",
+                    "DisplayName": "GetAllUsers",
+                    "Description": "GetAllUsers",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetDCWithFISMO.SYSpr",
+                    "DisplayName": "GetDCWithFISMO",
+                    "Description": "GetDCWithFISMO",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetDisabledUsers.SYSpr",
+                    "DisplayName": "GetDisabledUsers",
+                    "Description": "GetDisabledUsers",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetLockedAccounts.SYSpr",
+                    "DisplayName": "GetLockedAccounts",
+                    "Description": "GetLockedAccounts",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetTrustedForDelegationUsers.SYSpr",
+                    "DisplayName": "GetTrustedForDelegationUsers",
+                    "Description": "GetTrustedForDelegationUsers",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetUserPasswordExpiry.SYSpr",
+                    "DisplayName": "GetUserPasswordExpiry",
+                    "Description": "GetUserPasswordExpiry",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_getAllDomainTrusts.SYSpr",
+                    "DisplayName": "getAllDomainTrusts",
+                    "Description": "getAllDomainTrusts",
+                    "Version": "1.0"
+                }
+            ]
+        },
+        {
+            "DirectoryName": "FeaturesAndServices",
+            "Files":
+            [
+                {
+                    "FileName": "Computer_GetAllRunningServices.SYSpr",
+                    "DisplayName": "GetAllRunningServices",
+                    "Description": "GetAllRunningServices",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "Computer_GetAllStoppedServices.SYSpr",
+                    "DisplayName": "GetAllStoppedServices",
+                    "Description": "GetAllStoppedServices",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "Computer_GetInstalledFeatures.SYSpr",
+                    "DisplayName": "GetInstalledFeatures",
+                    "Description": "GetInstalledFeatures",
+                    "Version": "1.0"
+                }
+            ]
+        },
+        {
+            "DirectoryName": "GroupPolicy",
+            "Files":
+            [
+                {
+                    "FileName": "DC_GetDomainPasswordPolicy.SYSpr",
+                    "DisplayName": "GetDomainPasswordPolicy",
+                    "Description": "GetDomainPasswordPolicy",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetGPOReport.SYSpr",
+                    "DisplayName": "GetGPOReport",
+                    "Description": "GetGPOReport",
+                    "Version": "1.0"
+                }
+            ]
+        },
+        {
             "DirectoryName": "IIS",
             "Directories":
             [
@@ -10,12 +124,36 @@
                     "DirectoryName": "ASP.NET",
                     "Files":
                     [
+                        {
+                            "FileName": "Computer_AspNetSMTPSettings.SYSpr",
+                            "DisplayName": "AspNetSMTPSettings",
+                            "Description": "AspNetSMTPSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_AspNetSessionSettings.SYSpr",
+                            "DisplayName": "AspNetSessionSettings",
+                            "Description": "AspNetSessionSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_AspNetTrustLevelSettings.SYSpr",
+                            "DisplayName": "AspNetTrustLevelSettings",
+                            "Description": "AspNetTrustLevelSettings",
+                            "Version": "1.0"
+                        }
                     ]
                 },
                 {
                     "DirectoryName": "ASPSettings",
                     "Files":
                     [
+                        {
+                            "FileName": "Computer_AspScriptSettings.SYSpr",
+                            "DisplayName": "AspScriptSettings",
+                            "Description": "AspScriptSettings",
+                            "Version": "1.0"
+                        }
                     ]
                 },
                 {
@@ -59,15 +197,15 @@
                             "Version": "1.0"
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
-                            "DisplayName": "Application Pools General Settings",
-                            "Description": "Application Pools General Settings report.",
-                            "Version": "1.0"
-                        },
-                        {
                             "FileName": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
                             "DisplayName": "Application Pool Timeout Settings",
                             "Description": "Application Pool Timeout Settings report.",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
+                            "DisplayName": "Application Pools General Settings",
+                            "Description": "Application Pools General Settings report.",
                             "Version": "1.0"
                         }
                     ]
@@ -76,13 +214,133 @@
                     "DirectoryName": "AuthenticationSettings",
                     "Files":
                     [
+                        {
+                            "FileName": "Computer_AnonymousAuthenticationSettings.SYSpr",
+                            "DisplayName": "AnonymousAuthenticationSettings",
+                            "Description": "AnonymousAuthenticationSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_BasicAuthenticationSettings.SYSpr",
+                            "DisplayName": "BasicAuthenticationSettings",
+                            "Description": "BasicAuthenticationSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_ClientAuthenticationSettings.SYSpr",
+                            "DisplayName": "ClientAuthenticationSettings",
+                            "Description": "ClientAuthenticationSettings",
+                            "Version": "1.0"
+                        }
                     ]
                 },
                 {
                     "DirectoryName": "WebSites",
                     "Files":
                     [
+                        {
+                            "FileName": "Computer_WebSettingsDocumentFooterSettings.SYSpr",
+                            "DisplayName": "WebSettingsDocumentFooterSettings",
+                            "Description": "WebSettingsDocumentFooterSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_WebSiteSourceSettings.SYSpr",
+                            "DisplayName": "WebSiteSourceSettings",
+                            "Description": "WebSiteSourceSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_WebSitesAndApplicationPools.SYSpr",
+                            "DisplayName": "WebSitesAndApplicationPools",
+                            "Description": "WebSitesAndApplicationPools",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_WebSitesBindingSettings.SYSpr",
+                            "DisplayName": "WebSitesBindingSettings",
+                            "Description": "WebSitesBindingSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_WebSitesGeneralSettings.SYSpr",
+                            "DisplayName": "WebSitesGeneralSettings",
+                            "Description": "WebSitesGeneralSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_WebSitesISAPIFilterSettings.SYSpr",
+                            "DisplayName": "WebSitesISAPIFilterSettings",
+                            "Description": "WebSitesISAPIFilterSettings",
+                            "Version": "1.0"
+                        },
+                        {
+                            "FileName": "Computer_WebSitesNetworkSettings.SYSpr",
+                            "DisplayName": "WebSitesNetworkSettings",
+                            "Description": "WebSitesNetworkSettings",
+                            "Version": "1.0"
+                        }
                     ]
+                }
+            ]
+        },
+        {
+            "DirectoryName": "Network",
+            "Files":
+            [
+                {
+                    "FileName": "Computer_GetIPConfig.SYSpr",
+                    "DisplayName": "GetIPConfig",
+                    "Description": "GetIPConfig",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "Computer_GetIPInterfaceSettings.SYSpr",
+                    "DisplayName": "GetIPInterfaceSettings",
+                    "Description": "GetIPInterfaceSettings",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "Computer_GetTCPConnections.SYSpr",
+                    "DisplayName": "GetTCPConnections",
+                    "Description": "GetTCPConnections",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "DC_GetADComputers.SYSpr",
+                    "DisplayName": "GetADComputers",
+                    "Description": "GetADComputers",
+                    "Version": "1.0"
+                }
+            ]
+        },
+        {
+            "DirectoryName": "VMs",
+            "Files":
+            [
+                {
+                    "FileName": "Computer_FindVMHost.SYSpr",
+                    "DisplayName": "FindVMHost",
+                    "Description": "FindVMHost",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "HyperVHost_GetVMNetworkAdapters.SYSpr",
+                    "DisplayName": "GetVMNetworkAdapters",
+                    "Description": "GetVMNetworkAdapters",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "HyperVHost_ListAllVMs.SYSpr",
+                    "DisplayName": "ListAllVMs",
+                    "Description": "ListAllVMs",
+                    "Version": "1.0"
+                },
+                {
+                    "FileName": "HyperVHost_ListVMDisks.SYSpr",
+                    "DisplayName": "ListVMDisks",
+                    "Description": "ListVMDisks",
+                    "Version": "1.0"
                 }
             ]
         }
