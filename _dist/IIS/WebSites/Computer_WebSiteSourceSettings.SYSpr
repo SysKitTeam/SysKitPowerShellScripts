@@ -3,9 +3,17 @@
   <ScriptVersion>1</ScriptVersion>
   <ReportDefinition>
     <PowerShellScript>get-website |select name, physicalpath, username</PowerShellScript>
-    <IncludedColumns />
+    <IncludedColumns>
+      <string>name</string>
+      <string>physicalPath</string>
+      <string>userName</string>
+    </IncludedColumns>
     <RunScriptOn>SpecificServers</RunScriptOn>
-    <IncludedColumnTypes />
+    <IncludedColumnTypes>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+    </IncludedColumnTypes>
     <IdentityColumns />
     <TerminalServerIDs>
       <int>1</int>
