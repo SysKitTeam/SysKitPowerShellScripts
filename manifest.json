@@ -1,77 +1,77 @@
 {
-    "FolderName": "_dist",
+    "Name": "_dist",
     "Content":
     [
         {
-            "FolderName": "IIS",
+            "Name": "IIS",
             "Content":
             [
                 {
-                    "FolderName": "ASP.NET",
+                    "Name": "ASP.NET",
                     "Content":
                     [
                     ]
                 },
                 {
-                    "FolderName": "ASPSettings",
+                    "Name": "ASPSettings",
                     "Content":
                     [
                     ]
                 },
                 {
-                    "FolderName": "ApplicationPools",
+                    "Name": "ApplicationPools",
                     "Content":
                     [
                         {
-                            "FileName": "Computer_ApplicationPoolAutostartSettings.SYSpr",
-                            "Name": "Application Pool Autostart Settings",
+                            "Name": "Computer_ApplicationPoolAutostartSettings.SYSpr",
+                            "DisplayName": "Application Pool Autostart Settings",
                             "Description": "Application Pool Autostart Settings report."
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolFailureSettings.SYSpr",
-                            "Name": "Application Pool Failure Settings",
+                            "Name": "Computer_ApplicationPoolFailureSettings.SYSpr",
+                            "DisplayName": "Application Pool Failure Settings",
                             "Description": "Application Pool Failure Settings report."
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolIdentitySettings.SYSpr",
-                            "Name": "Application Pool Identity Settings",
+                            "Name": "Computer_ApplicationPoolIdentitySettings.SYSpr",
+                            "DisplayName": "Application Pool Identity Settings",
                             "Description": "Application Pool Identity Settings report."
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolOrphanAction.SYSpr",
-                            "Name": "Application Pool Orphan Action",
+                            "Name": "Computer_ApplicationPoolOrphanAction.SYSpr",
+                            "DisplayName": "Application Pool Orphan Action",
                             "Description": "Application Pool Orphan Action report."
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolProcessModel.SYSpr",
-                            "Name": "Application Pool Process Model",
+                            "Name": "Computer_ApplicationPoolProcessModel.SYSpr",
+                            "DisplayName": "Application Pool Process Model",
                             "Description": "Application Pool Process Model report."
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolRecycleSettings.SYSpr",
-                            "Name": "Application Pool Recycle Settings",
+                            "Name": "Computer_ApplicationPoolRecycleSettings.SYSpr",
+                            "DisplayName": "Application Pool Recycle Settings",
                             "Description": "Application Pool Recycle Settings report."
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
-                            "Name": "Application Pools General Settings",
+                            "Name": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
+                            "DisplayName": "Application Pools General Settings",
                             "Description": "Application Pools General Settings report."
                         },
                         {
-                            "FileName": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
-                            "Name": "Application Pool Timeout Settings",
+                            "Name": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
+                            "DisplayName": "Application Pool Timeout Settings",
                             "Description": "Application Pool Timeout Settings report."
                         }
                     ]
                 },
                 {
-                    "FolderName": "AuthenticationSettings",
+                    "Name": "AuthenticationSettings",
                     "Content":
                     [
                     ]
                 },
                 {
-                    "FolderName": "WebSites",
+                    "Name": "WebSites",
                     "Content":
                     [
                     ]
