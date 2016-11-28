@@ -1,63 +1,76 @@
 {
+    "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineDirectoryEntity"
     "Name": "_dist",
     "Content":
     [
         {
+            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineDirectoryEntity"
             "Name": "IIS",
             "Content":
             [
                 {
+                    "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineDirectoryEntity"
                     "Name": "ASP.NET",
                     "Content":
                     [
                     ]
                 },
                 {
+                    "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineDirectoryEntity"
                     "Name": "ASPSettings",
                     "Content":
                     [
                     ]
                 },
                 {
+                    "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineDirectoryEntity"
                     "Name": "ApplicationPools",
                     "Content":
                     [
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolAutostartSettings.SYSpr",
                             "DisplayName": "Application Pool Autostart Settings",
                             "Description": "Application Pool Autostart Settings report."
                         },
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolFailureSettings.SYSpr",
                             "DisplayName": "Application Pool Failure Settings",
                             "Description": "Application Pool Failure Settings report."
                         },
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolIdentitySettings.SYSpr",
                             "DisplayName": "Application Pool Identity Settings",
                             "Description": "Application Pool Identity Settings report."
                         },
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolOrphanAction.SYSpr",
                             "DisplayName": "Application Pool Orphan Action",
                             "Description": "Application Pool Orphan Action report."
                         },
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolProcessModel.SYSpr",
                             "DisplayName": "Application Pool Process Model",
                             "Description": "Application Pool Process Model report."
                         },
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolRecycleSettings.SYSpr",
                             "DisplayName": "Application Pool Recycle Settings",
                             "Description": "Application Pool Recycle Settings report."
                         },
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
                             "DisplayName": "Application Pools General Settings",
                             "Description": "Application Pools General Settings report."
                         },
                         {
+                            "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineScriptEntity"
                             "Name": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
                             "DisplayName": "Application Pool Timeout Settings",
                             "Description": "Application Pool Timeout Settings report."
@@ -65,12 +78,14 @@
                     ]
                 },
                 {
+                    "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineDirectoryEntity"
                     "Name": "AuthenticationSettings",
                     "Content":
                     [
                     ]
                 },
                 {
+                    "$type": "Acceleratio.Reporting.Main.UserControls.PowerShell.OnlineDirectoryEntity"
                     "Name": "WebSites",
                     "Content":
                     [
