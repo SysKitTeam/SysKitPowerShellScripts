@@ -25,42 +25,50 @@
                         {
                             "FileName": "Computer_ApplicationPoolAutostartSettings.SYSpr",
                             "DisplayName": "Application Pool Autostart Settings",
-                            "Description": "Application Pool Autostart Settings report."
+                            "Description": "Application Pool Autostart Settings report.",
+                            "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolFailureSettings.SYSpr",
                             "DisplayName": "Application Pool Failure Settings",
-                            "Description": "Application Pool Failure Settings report."
+                            "Description": "Application Pool Failure Settings report.",
+                            "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolIdentitySettings.SYSpr",
                             "DisplayName": "Application Pool Identity Settings",
-                            "Description": "Application Pool Identity Settings report."
+                            "Description": "Application Pool Identity Settings report.",
+                            "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolOrphanAction.SYSpr",
                             "DisplayName": "Application Pool Orphan Action",
-                            "Description": "Application Pool Orphan Action report."
+                            "Description": "Application Pool Orphan Action report.",
+                            "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolProcessModel.SYSpr",
                             "DisplayName": "Application Pool Process Model",
-                            "Description": "Application Pool Process Model report."
+                            "Description": "Application Pool Process Model report.",
+                            "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolRecycleSettings.SYSpr",
                             "DisplayName": "Application Pool Recycle Settings",
-                            "Description": "Application Pool Recycle Settings report."
+                            "Description": "Application Pool Recycle Settings report.",
+                            "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
                             "DisplayName": "Application Pools General Settings",
-                            "Description": "Application Pools General Settings report."
+                            "Description": "Application Pools General Settings report.",
+                            "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
                             "DisplayName": "Application Pool Timeout Settings",
-                            "Description": "Application Pool Timeout Settings report."
+                            "Description": "Application Pool Timeout Settings report.",
+                            "Version": "1.0"
                         }
                     ]
                 },
