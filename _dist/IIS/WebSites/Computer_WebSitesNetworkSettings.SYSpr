@@ -4,9 +4,21 @@
   <ReportDefinition>
     <PowerShellScript>$test = Get-WebConfigurationProperty /system.applicationhost/sites -name * | select -expand collection | select name -expand limits
 $test | select name, maxBandwidth, maxconnections, connectionTimeout, maxUrlSegments</PowerShellScript>
-    <IncludedColumns />
+    <IncludedColumns>
+      <string>name</string>
+      <string>maxBandwidth</string>
+      <string>maxConnections</string>
+      <string>connectionTimeout</string>
+      <string>maxUrlSegments</string>
+    </IncludedColumns>
     <RunScriptOn>SpecificServers</RunScriptOn>
-    <IncludedColumnTypes />
+    <IncludedColumnTypes>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+      <string>System.String</string>
+    </IncludedColumnTypes>
     <IdentityColumns />
     <TerminalServerIDs>
       <int>57</int>
