@@ -8,67 +8,67 @@
             [
                 {
                     "FileName": "DC_GetAllClientComputers.SYSpr",
-                    "DisplayName": "GetAllClientComputers",
+                    "Name": "GetAllClientComputers",
                     "Description": "GetAllClientComputers",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetAllDomainAdmins.SYSpr",
-                    "DisplayName": "GetAllDomainAdmins",
+                    "Name": "GetAllDomainAdmins",
                     "Description": "GetAllDomainAdmins",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetAllOUs.SYSpr",
-                    "DisplayName": "GetAllOUs",
+                    "Name": "GetAllOUs",
                     "Description": "GetAllOUs",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetAllServers.SYSpr",
-                    "DisplayName": "GetAllServers",
+                    "Name": "GetAllServers",
                     "Description": "GetAllServers",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetAllUsers.SYSpr",
-                    "DisplayName": "GetAllUsers",
+                    "Name": "GetAllUsers",
                     "Description": "GetAllUsers",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetDCWithFISMO.SYSpr",
-                    "DisplayName": "GetDCWithFISMO",
+                    "Name": "GetDCWithFISMO",
                     "Description": "GetDCWithFISMO",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetDisabledUsers.SYSpr",
-                    "DisplayName": "GetDisabledUsers",
+                    "Name": "GetDisabledUsers",
                     "Description": "GetDisabledUsers",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetLockedAccounts.SYSpr",
-                    "DisplayName": "GetLockedAccounts",
+                    "Name": "GetLockedAccounts",
                     "Description": "GetLockedAccounts",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetTrustedForDelegationUsers.SYSpr",
-                    "DisplayName": "GetTrustedForDelegationUsers",
+                    "Name": "GetTrustedForDelegationUsers",
                     "Description": "GetTrustedForDelegationUsers",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetUserPasswordExpiry.SYSpr",
-                    "DisplayName": "GetUserPasswordExpiry",
+                    "Name": "GetUserPasswordExpiry",
                     "Description": "GetUserPasswordExpiry",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_getAllDomainTrusts.SYSpr",
-                    "DisplayName": "getAllDomainTrusts",
+                    "Name": "getAllDomainTrusts",
                     "Description": "getAllDomainTrusts",
                     "Version": "1.0"
                 }
@@ -80,19 +80,19 @@
             [
                 {
                     "FileName": "Computer_GetAllRunningServices.SYSpr",
-                    "DisplayName": "GetAllRunningServices",
+                    "Name": "GetAllRunningServices",
                     "Description": "GetAllRunningServices",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "Computer_GetAllStoppedServices.SYSpr",
-                    "DisplayName": "GetAllStoppedServices",
+                    "Name": "GetAllStoppedServices",
                     "Description": "GetAllStoppedServices",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "Computer_GetInstalledFeatures.SYSpr",
-                    "DisplayName": "GetInstalledFeatures",
+                    "Name": "GetInstalledFeatures",
                     "Description": "GetInstalledFeatures",
                     "Version": "1.0"
                 }
@@ -104,13 +104,13 @@
             [
                 {
                     "FileName": "DC_GetDomainPasswordPolicy.SYSpr",
-                    "DisplayName": "GetDomainPasswordPolicy",
+                    "Name": "GetDomainPasswordPolicy",
                     "Description": "GetDomainPasswordPolicy",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetGPOReport.SYSpr",
-                    "DisplayName": "GetGPOReport",
+                    "Name": "GetGPOReport",
                     "Description": "GetGPOReport",
                     "Version": "1.0"
                 }
@@ -126,19 +126,19 @@
                     [
                         {
                             "FileName": "Computer_AspNetSMTPSettings.SYSpr",
-                            "DisplayName": "AspNetSMTPSettings",
+                            "Name": "AspNetSMTPSettings",
                             "Description": "AspNetSMTPSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_AspNetSessionSettings.SYSpr",
-                            "DisplayName": "AspNetSessionSettings",
+                            "Name": "AspNetSessionSettings",
                             "Description": "AspNetSessionSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_AspNetTrustLevelSettings.SYSpr",
-                            "DisplayName": "AspNetTrustLevelSettings",
+                            "Name": "AspNetTrustLevelSettings",
                             "Description": "AspNetTrustLevelSettings",
                             "Version": "1.0"
                         }
@@ -150,7 +150,7 @@
                     [
                         {
                             "FileName": "Computer_AspScriptSettings.SYSpr",
-                            "DisplayName": "AspScriptSettings",
+                            "Name": "AspScriptSettings",
                             "Description": "AspScriptSettings",
                             "Version": "1.0"
                         }
@@ -162,49 +162,49 @@
                     [
                         {
                             "FileName": "Computer_ApplicationPoolAutostartSettings.SYSpr",
-                            "DisplayName": "Application Pool Autostart Settings",
+                            "Name": "Application Pool Autostart Settings",
                             "Description": "Application Pool Autostart Settings report.",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolFailureSettings.SYSpr",
-                            "DisplayName": "Application Pool Failure Settings",
+                            "Name": "Application Pool Failure Settings",
                             "Description": "Application Pool Failure Settings report.",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolIdentitySettings.SYSpr",
-                            "DisplayName": "Application Pool Identity Settings",
+                            "Name": "Application Pool Identity Settings",
                             "Description": "Application Pool Identity Settings report.",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolOrphanAction.SYSpr",
-                            "DisplayName": "Application Pool Orphan Action",
+                            "Name": "Application Pool Orphan Action",
                             "Description": "Application Pool Orphan Action report.",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolProcessModel.SYSpr",
-                            "DisplayName": "Application Pool Process Model",
+                            "Name": "Application Pool Process Model",
                             "Description": "Application Pool Process Model report.",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolRecycleSettings.SYSpr",
-                            "DisplayName": "Application Pool Recycle Settings",
+                            "Name": "Application Pool Recycle Settings",
                             "Description": "Application Pool Recycle Settings report.",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolTimeoutSettings.SYSpr",
-                            "DisplayName": "Application Pool Timeout Settings",
+                            "Name": "Application Pool Timeout Settings",
                             "Description": "Application Pool Timeout Settings report.",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ApplicationPoolsGeneralSettings.SYSpr",
-                            "DisplayName": "Application Pools General Settings",
+                            "Name": "Application Pools General Settings",
                             "Description": "Application Pools General Settings report.",
                             "Version": "1.0"
                         }
@@ -216,19 +216,19 @@
                     [
                         {
                             "FileName": "Computer_AnonymousAuthenticationSettings.SYSpr",
-                            "DisplayName": "AnonymousAuthenticationSettings",
+                            "Name": "AnonymousAuthenticationSettings",
                             "Description": "AnonymousAuthenticationSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_BasicAuthenticationSettings.SYSpr",
-                            "DisplayName": "BasicAuthenticationSettings",
+                            "Name": "BasicAuthenticationSettings",
                             "Description": "BasicAuthenticationSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_ClientAuthenticationSettings.SYSpr",
-                            "DisplayName": "ClientAuthenticationSettings",
+                            "Name": "ClientAuthenticationSettings",
                             "Description": "ClientAuthenticationSettings",
                             "Version": "1.0"
                         }
@@ -240,43 +240,43 @@
                     [
                         {
                             "FileName": "Computer_WebSettingsDocumentFooterSettings.SYSpr",
-                            "DisplayName": "WebSettingsDocumentFooterSettings",
+                            "Name": "WebSettingsDocumentFooterSettings",
                             "Description": "WebSettingsDocumentFooterSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_WebSiteSourceSettings.SYSpr",
-                            "DisplayName": "WebSiteSourceSettings",
+                            "Name": "WebSiteSourceSettings",
                             "Description": "WebSiteSourceSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_WebSitesAndApplicationPools.SYSpr",
-                            "DisplayName": "WebSitesAndApplicationPools",
+                            "Name": "WebSitesAndApplicationPools",
                             "Description": "WebSitesAndApplicationPools",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_WebSitesBindingSettings.SYSpr",
-                            "DisplayName": "WebSitesBindingSettings",
+                            "Name": "WebSitesBindingSettings",
                             "Description": "WebSitesBindingSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_WebSitesGeneralSettings.SYSpr",
-                            "DisplayName": "WebSitesGeneralSettings",
+                            "Name": "WebSitesGeneralSettings",
                             "Description": "WebSitesGeneralSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_WebSitesISAPIFilterSettings.SYSpr",
-                            "DisplayName": "WebSitesISAPIFilterSettings",
+                            "Name": "WebSitesISAPIFilterSettings",
                             "Description": "WebSitesISAPIFilterSettings",
                             "Version": "1.0"
                         },
                         {
                             "FileName": "Computer_WebSitesNetworkSettings.SYSpr",
-                            "DisplayName": "WebSitesNetworkSettings",
+                            "Name": "WebSitesNetworkSettings",
                             "Description": "WebSitesNetworkSettings",
                             "Version": "1.0"
                         }
@@ -290,25 +290,25 @@
             [
                 {
                     "FileName": "Computer_GetIPConfig.SYSpr",
-                    "DisplayName": "GetIPConfig",
+                    "Name": "GetIPConfig",
                     "Description": "GetIPConfig",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "Computer_GetIPInterfaceSettings.SYSpr",
-                    "DisplayName": "GetIPInterfaceSettings",
+                    "Name": "GetIPInterfaceSettings",
                     "Description": "GetIPInterfaceSettings",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "Computer_GetTCPConnections.SYSpr",
-                    "DisplayName": "GetTCPConnections",
+                    "Name": "GetTCPConnections",
                     "Description": "GetTCPConnections",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "DC_GetADComputers.SYSpr",
-                    "DisplayName": "GetADComputers",
+                    "Name": "GetADComputers",
                     "Description": "GetADComputers",
                     "Version": "1.0"
                 }
@@ -320,25 +320,25 @@
             [
                 {
                     "FileName": "Computer_FindVMHost.SYSpr",
-                    "DisplayName": "FindVMHost",
+                    "Name": "FindVMHost",
                     "Description": "FindVMHost",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "HyperVHost_GetVMNetworkAdapters.SYSpr",
-                    "DisplayName": "GetVMNetworkAdapters",
+                    "Name": "GetVMNetworkAdapters",
                     "Description": "GetVMNetworkAdapters",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "HyperVHost_ListAllVMs.SYSpr",
-                    "DisplayName": "ListAllVMs",
+                    "Name": "ListAllVMs",
                     "Description": "ListAllVMs",
                     "Version": "1.0"
                 },
                 {
                     "FileName": "HyperVHost_ListVMDisks.SYSpr",
-                    "DisplayName": "ListVMDisks",
+                    "Name": "ListVMDisks",
                     "Description": "ListVMDisks",
                     "Version": "1.0"
                 }
