@@ -16,7 +16,7 @@
                     "FileName": "DC_GetAllDomainAdmins.SYSpr",
                     "Name": "GetAllDomainAdmins",
                     "Description": "GetAllDomainAdmins",
-                    "Version": "1.0"
+                    "Version": "1.1"
                 },
                 {
                     "FileName": "DC_GetAllOUs.SYSpr",
