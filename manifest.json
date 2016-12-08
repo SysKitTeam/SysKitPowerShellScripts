@@ -36,7 +36,9 @@
                     "FileName": "DC_GetAllServers.SYSpr",
                     "Name": "GetAllServers",
                     "Description": "GetAllServers",
-                    "Version": "1.0"
+                    "Version": "1.0",
+                    "Author": "Jonathan Smith",
+                    "DatePublished": "2016-12-08T09:44:00.673Z"
                 },
                 {
                     "FileName": "DC_GetAllUsers.SYSpr",
