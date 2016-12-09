@@ -12,7 +12,7 @@
                     "FileName": "DC_GetAllClientComputers.SYSpr",
                     "Name": "GetAllClientComputers",
                     "Description": "GetAllClientComputers",
-                    "Version": "1.0",
+                    "Version": "1.1",
                     "Author": "Jonathan Smith",
                     "DatePublished": "2016-12-08T09:44:00.673Z"
                 },
