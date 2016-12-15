@@ -14,8 +14,7 @@
                     "Description": "GetAllClientComputers",
                     "Version": "1.3",
                     "Author": "Jonathan Smith",
-                    "DatePublished": "2016-12-08T09:44:00.673Z",
-                    "AdditionalData": "test"
+                    "DatePublished": "2016-12-08T09:44:00.673Z"
                 },
                 {
                     "FileName": "DC_GetAllDomainAdmins.SYSpr",
