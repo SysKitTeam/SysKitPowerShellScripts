@@ -1,1 +1,0 @@
-get-service | Where-Object {$_.status -eq "running"} | ft -AutoSize

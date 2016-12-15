@@ -1,1 +1,0 @@
-Get-WebConfigurationProperty /system.applicationhost/applicationpools -name * | select -expand collection | select name -expand Failure |select name, RapidFailProtection, RapidFailProtectionInterval, RapidFailProtectionMaxCrashes, autoShutdownExe, autoShutdowParams

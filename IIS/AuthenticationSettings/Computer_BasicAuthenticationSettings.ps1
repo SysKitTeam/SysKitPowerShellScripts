@@ -1,1 +1,0 @@
-get-WebConfigurationProperty -filter /system.WebServer/security/authentication/BasicAuthentication -name *| select  enabled, relm, defaultlogondomain, logonMethod, islocked, overridemode, overridemodeeffective

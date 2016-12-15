@@ -1,1 +1,0 @@
-Get-WindowsFeature | Where-Object {$_.Installed -match "True"} | ft -autosize

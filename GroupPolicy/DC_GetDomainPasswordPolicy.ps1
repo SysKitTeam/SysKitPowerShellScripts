@@ -1,1 +1,0 @@
-Get-ADDefaultDomainPasswordPolicy | select DistinguishedName, ComplexityEnabled, LockoutDuration, LockoutThreshold, MinPasswordAge, MaxPasswordAge, MinPasswordLength, PasswordHistoryCount, ReversibleEncryptionEnabled

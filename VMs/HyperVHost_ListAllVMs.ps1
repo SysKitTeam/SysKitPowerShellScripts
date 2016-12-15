@@ -1,1 +1,0 @@
-Get-VM | select Name,State,Uptime,@{N="MemoryMB";E={$_.MemoryAssigned/1MB}},Status | ft  -AutoSize

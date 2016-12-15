@@ -1,1 +1,0 @@
-Get-VMNetworkAdapter -All | select Name,IsManagementOs,VMName,SwitchName,Status | ft -Autosize

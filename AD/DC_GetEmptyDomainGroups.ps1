@@ -1,1 +1,0 @@
-Get-ADGroup -filter * | Where {-Not ($_ | Get-ADGroupMember)} | Select Name

@@ -1,1 +1,0 @@
-Get-WebConfigurationProperty /system.applicationhost/applicationpools -name * | select -expand collection | select name, startmode, enable32BitAppOnWin64, managedRuntimeVersion, managedRuntimeLoader, enableConfigurationOverride, CLRConfigFile, passAnonymousToken, state, Attributes, ChildElements, ElementTagName, Methods
