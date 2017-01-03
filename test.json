@@ -1,35 +1,35 @@
 {
-      id: 1,
-      text: "Folder 1",
-      type: "root",
-      state: {
-          selected: false
+      "id": 1,
+      "text": "Folder 1",
+      "type": "root",
+      "state": {
+          "selected": false
       },
-      children: [
+      "children": [
         {
-            id: 2,
-            text: "Sub Folder 1",
-            type: "child",
-            state: {
-                selected: false
+            "id": 2,
+            "text": "Sub Folder 1",
+            "type": "child",
+            "state": {
+                "selected": false
             }
         },
         {
-            id: 3,
-            text: "Sub Folder 2",
-            type: "child",
-            state: {
-                selected: false
+            "id": 3,
+            "text": "Sub Folder 2",
+            "type": "child",
+            "state": {
+                "selected": false
             }
         }
       ]
   },
   {
-      id: 4,
-      text: "Folder 2",
-      type: "root",
-      state: {
-          selected: true
+      "id": 4,
+      "text": "Folder 2",
+      "type": "root",
+      "state": {
+          "selected": true
       },
-      children: []
+      "children": []
   }
