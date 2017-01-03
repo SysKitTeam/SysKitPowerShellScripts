@@ -1,42 +1,45 @@
 {
-      {
-            "id": 1,
-            "text": "Folder 1",
-            "type": "root",
-            "state":
+      "children":
+      [
             {
-                  "selected": false
-            },
-            "children":
-            [
+                  "id": 1,
+                  "text": "Folder 1",
+                  "type": "root",
+                  "state":
                   {
-                        "id": 2,
-                        "text": "Sub Folder 1",
-                        "type": "child",
-                        "state":
-                        {
-                            "selected": false
-                        }
+                        "selected": false
                   },
-                  {
-                        "id": 3,
-                        "text": "Sub Folder 2",
-                        "type": "child",
-                        "state":
+                  "children":
+                  [
                         {
-                            "selected": false
+                              "id": 2,
+                              "text": "Sub Folder 1",
+                              "type": "child",
+                              "state":
+                              {
+                                  "selected": false
+                              }
+                        },
+                        {
+                              "id": 3,
+                              "text": "Sub Folder 2",
+                              "type": "child",
+                              "state":
+                              {
+                                  "selected": false
+                              }
                         }
-                  }
-            ]
-      },
-      {
-            "id": 4,
-            "text": "Folder 2",
-            "type": "root",
-            "state":
-            {
-                  "selected": true
+                  ]
             },
-            "children": []
-      }
+            {
+                  "id": 4,
+                  "text": "Folder 2",
+                  "type": "root",
+                  "state":
+                  {
+                        "selected": true
+                  },
+                  "children": []
+            }
+      ]
 }
