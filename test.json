@@ -1,45 +1,6 @@
-{
-      "children":
-      [
-            {
-                  "id": 1,
-                  "text": "Folder 1",
-                  "type": "root",
-                  "state":
-                  {
-                        "selected": false
-                  },
-                  "children":
-                  [
-                        {
-                              "id": 2,
-                              "text": "Sub Folder 1",
-                              "type": "child",
-                              "state":
-                              {
-                                  "selected": false
-                              }
-                        },
-                        {
-                              "id": 3,
-                              "text": "Sub Folder 2",
-                              "type": "child",
-                              "state":
-                              {
-                                  "selected": false
-                              }
-                        }
-                  ]
-            },
-            {
-                  "id": 4,
-                  "text": "Folder 2",
-                  "type": "root",
-                  "state":
-                  {
-                        "selected": true
-                  },
-                  "children": []
-            }
-      ]
-}
+[
+    { "id" : "bbbdb18247a446d6a71795e75b7c213a", "parent" : "#", "text" : "Simple root node", "type": "folder" },
+    { "id" : "d0326b0c07ba4186baa79d03c8526369", "parent" : "#", "text" : "Root node 2", "type": "folder" },
+    { "id" : "549b36fc49ed4ac6a5cb2f3f68291949", "parent" : "d0326b0c07ba4186baa79d03c8526369", "text" : "Child 1", "type": "file" },
+    { "id" : "599496e1080d4befa0d4baebb27deb88", "parent" : "d0326b0c07ba4186baa79d03c8526369", "text" : "Child 2", "type": "file" },
+]
