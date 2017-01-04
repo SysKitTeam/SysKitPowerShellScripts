@@ -1,10 +1,65 @@
-{
-    "data": [
-        { "id" : "bbbdb18247a446d6a71795e75b7c213a", "parent" : "#", "text" : "Simple root node", "type": "folder" },
-        { "id" : "d0326b0c07ba4186baa79d03c8526369", "parent" : "#", "text" : "Root node 2", "type": "folder" },
-        { "id" : "549b36fc49ed4ac6a5cb2f3f68291949", "parent" : "d0326b0c07ba4186baa79d03c8526369", "text" : "Child 1", "type": "file" },
-        { "id" : "599496e1080d4befa0d4baebb27deb88", "parent" : "d0326b0c07ba4186baa79d03c8526369", "text" : "Child 2", "type": "file" }
-    ]
-}
-
-
+[
+    {
+        "id" : "07e9cf5ae6534a34ad00430140a8cd22",
+        "parent" : "#",
+        "text" : "AD",
+        "type": "folder"
+    },
+        {
+            "id" : "791c07c73cbd46fe845cc7136311c3c6",
+            "parent" : "07e9cf5ae6534a34ad00430140a8cd22",
+            "text" : "GetAllClientComputers",
+            "type": "file",
+            "metadata":
+            {
+                "filename": "DC_GetAllClientComputers.SYSpr",
+                "name": "GetAllClientComputers",
+                "description": "GetAllClientComputers",
+                "version": "1.3",
+                "author": "Jonathan Smith",
+                "datepublished": "2016-12-08T09:44:00.673Z"
+            }
+        },
+        {
+            "id" : "fb28b1dbf45344d08385919ffcea5d6f",
+            "parent" : "07e9cf5ae6534a34ad00430140a8cd22",
+            "text" : "GetAllDomainAdmins",
+            "type": "file",
+            "metadata":
+            {
+                "filename": "DC_GetAllDomainAdmins.SYSpr",
+                "name": "GetAllDomainAdmins",
+                "description": "GetAllDomainAdmins",
+                "version": "1.0",
+                "author": "Jonathan Smith",
+                "datepublished": "2016-12-08T09:44:00.673Z"
+            }
+        },
+    {
+        "id" : "1c26f1e7227d4d92b9d4b87d5f101a51",
+        "parent" : "#",
+        "text" : "IIS",
+        "type": "folder"
+    },
+        {
+            "id" : "f0513cd38d064e9d86364a44df729842",
+            "parent" : "1c26f1e7227d4d92b9d4b87d5f101a51",
+            "text" : "ASP.NET",
+            "type": "folder"
+        },
+            {
+                "id" : "791c07c73cbd46fe845cc7136311c3c6",
+                "parent" : "f0513cd38d064e9d86364a44df729842",
+                "text" : "GetAllClientComputers",
+                "type": "file",
+                "metadata":
+                {
+                    "filename": "Computer_AspNetSMTPSettings.SYSpr",
+                    "name": "AspNetSMTPSettings",
+                    "description": "AspNetSMTPSettings",
+                    "version": "1.3",
+                    "author": "Jonathan Smith",
+                    "datepublished": "2016-12-08T09:44:00.673Z"
+                }
+            }
+]
