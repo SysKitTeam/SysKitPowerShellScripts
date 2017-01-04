@@ -13,7 +13,7 @@
             "type": "file",
             "metadata":
             {
-                "filename": "DC_GetAllClientComputers.SYSpr",
+                "filename": "151f929ec1ac4ed59dfede09e3a14ce5.SYSpr",
                 "name": "GetAllClientComputers",
                 "description": "GetAllClientComputers",
                 "version": "1.3",
@@ -28,7 +28,7 @@
             "type": "file",
             "metadata":
             {
-                "filename": "DC_GetAllDomainAdmins.SYSpr",
+                "filename": "fb28b1dbf45344d08385919ffcea5d6f.SYSpr",
                 "name": "GetAllDomainAdmins",
                 "description": "GetAllDomainAdmins",
                 "version": "1.0",
@@ -55,7 +55,7 @@
                 "type": "file",
                 "metadata":
                 {
-                    "filename": "Computer_AspNetSMTPSettings.SYSpr",
+                    "filename": "791c07c73cbd46fe845cc7136311c3c6.SYSpr",
                     "name": "AspNetSMTPSettings",
                     "description": "AspNetSMTPSettings",
                     "version": "1.3",
