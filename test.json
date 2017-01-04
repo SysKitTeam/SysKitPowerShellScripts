@@ -51,7 +51,7 @@
             {
                 "id" : "791c07c73cbd46fe845cc7136311c3c6",
                 "parent" : "f0513cd38d064e9d86364a44df729842",
-                "text" : "GetAllClientComputers",
+                "text" : "AspNetSMTPSettings",
                 "type": "file",
                 "metadata":
                 {
