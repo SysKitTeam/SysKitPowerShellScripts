@@ -11,7 +11,7 @@
             "parent" : "07e9cf5ae6534a34ad00430140a8cd22",
             "text" : "GetAllClientComputers",
             "type": "file",
-            "metadata":
+            "data":
             {
                 "filename": "151f929ec1ac4ed59dfede09e3a14ce5.SYSpr",
                 "name": "GetAllClientComputers",
@@ -26,7 +26,7 @@
             "parent" : "07e9cf5ae6534a34ad00430140a8cd22",
             "text" : "GetAllDomainAdmins",
             "type": "file",
-            "metadata":
+            "data":
             {
                 "filename": "fb28b1dbf45344d08385919ffcea5d6f.SYSpr",
                 "name": "GetAllDomainAdmins",
@@ -53,7 +53,7 @@
                 "parent" : "f0513cd38d064e9d86364a44df729842",
                 "text" : "AspNetSMTPSettings",
                 "type": "file",
-                "metadata":
+                "data":
                 {
                     "filename": "791c07c73cbd46fe845cc7136311c3c6.SYSpr",
                     "name": "AspNetSMTPSettings",
