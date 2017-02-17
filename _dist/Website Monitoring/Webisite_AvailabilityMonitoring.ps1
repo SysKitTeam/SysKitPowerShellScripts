@@ -1,10 +1,10 @@
-################
+#################
 # SYSKIT
 # www.syskit.com
 <#
 Displays response time for specific websites. Websites to test have to be specified in the script. Run on local Computer.
 #>
-################
+#################
 $URLList = 
 "http://www.bing.com/",
 "https://www.google.com",
