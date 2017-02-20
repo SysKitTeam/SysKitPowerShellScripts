@@ -1,12 +1,12 @@
 # SysKit PowerShell Scripts
 
-This repository contains importable PowerShell scripts that are used to generate PowerShell reports.
+This repository contains PowerShell scripts that are used to generate PowerShell reports on Active Directory, Group Policies, IIS, Network, Virtual Machines, and more.
 
-The PowerShell code contained in these scripts is remotely executed on servers monitored by SysKit and the data gathered is used to construct reports inside SysKit.
+The PowerShell code contained in these scripts is remotely executed on servers monitored by SysKit and the data gathered is used to construct reports inside SysKit. Learn more: www.syskit.com
 
 The scripts are licensed under the terms of the MIT license.
 
-Script inventory:
+SCRIPT INVENTORY:
 
 ### IIS
 
