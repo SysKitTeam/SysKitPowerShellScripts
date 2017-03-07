@@ -33,7 +33,7 @@ $URLList =
   StatusCode = [int] $request.StatusCode; 
   StatusDescription = [string] $request.StatusDescription; 
   ResponseLength = [int] $request.RawContentLength; 
-  TimeTaken = [int] $time;  
+  "TimeTaken (ms)" = [int] $time;
   } 
 
 } 
