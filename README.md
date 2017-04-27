@@ -104,6 +104,14 @@ Computer_GetTCPConnections.ps1
 DC_GetADComputers.ps1
 ```
 
+### SharePoint Site Monitoring
+
+Scripts for displaying information on SharePoint site status.
+
+```
+SharePoint_Site_AvailabilityMonitoring.ps1
+```
+
 ### VMs
 
 Scripts for displaying Hyper-V Virtual Machine information.
